@@ -5,7 +5,7 @@
 - Server.js
 - ~~Config~~
 - ~~DB~~
-- Models
+- ~~Models~~
 - controllers
 
 ## Add handle bars
