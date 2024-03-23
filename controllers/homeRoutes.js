@@ -88,4 +88,26 @@ router.get("/post", withAuth, async (req, res) => {
     res.status(500).json(error);
   }
 });
+
+router.get("/updatepost/:id", async (req, res) => {
+  try {
+    const postData = await Post.findByPk(req.params.id, {
+      include: [
+        { model: User, attributes: ["username"] },
+        {
+          model: Comment,
+          include: [{ model: User, attributes: ["username"] }],
+        },
+      ],
+    });
+    const post = postData.get({ plain: true });
+
+    res.render("editpost", {
+      ...post,
+      logged_in: req.session.logged_in,
+    });
+  } catch (error) {
+    res.status(500).json(error);
+  }
+});
 module.exports = router;

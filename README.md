@@ -11,8 +11,8 @@
 ## Add handle bars
 
 - ~~Home~~
-- Dashboard
-- signup
+- ~~Dashboard~~
+- ~~signup~~
 - ~~Login~~
 - ~~Logout "no page just logout on clicking on the nav"~~
 - ~~Post~~
