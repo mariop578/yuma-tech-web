@@ -1,7 +1,3 @@
-// const post_id = window.location.toString().split("/")[
-//   window.location.toString().split("/").length - 1
-// ];
-
 const deletePost = async (e) => {
   e.preventDefault();
   if (e.target.matches(".delete-post")) {

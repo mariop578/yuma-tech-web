@@ -16,12 +16,12 @@
 - ~~Login~~
 - ~~Logout "no page just logout on clicking on the nav"~~
 - ~~Post~~
-- edit post
-- comment
+- ~~edit post~~
+- ~~comment~~
 
 ## Functionality
 
-- Create event handlers for all pages
+- ~~Create event handlers for all pages~~
 
 ## Bonus
 
