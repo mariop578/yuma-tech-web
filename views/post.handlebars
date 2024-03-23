@@ -1,0 +1,27 @@
+<div class="container">
+  <article>
+    <h1>{{title}}</h1>
+    <p>Created by: {{user.username}}</p>
+    <p>{{text}}</p>
+  </article>
+  {{#if logged_in}}
+    <form>
+      <div class="mb-3">
+        <textarea
+          class="form-control"
+          id="content-new-comment"
+          rows="3"
+          placeholder="Write a comment"
+        ></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  {{/if}}
+  <h2>Previous Comments:</h2>
+  {{#each comments}}
+    <div class="container sm">
+      <p>{{comment}}</p>
+      <p>By {{user.username}}</p>
+    </div>
+  {{/each}}
+</div>
