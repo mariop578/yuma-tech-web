@@ -6,7 +6,7 @@
 - ~~Config~~
 - ~~DB~~
 - ~~Models~~
-- controllers
+- ~~controllers~~
 
 ## Add handle bars
 
