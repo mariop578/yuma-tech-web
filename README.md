@@ -10,12 +10,12 @@
 
 ## Add handle bars
 
-- Home
+- ~~Home~~
 - Dashboard
 - signup
-- Login
-- Logout "no page just logout on clicking on the nav"
-- Post
+- ~~Login~~
+- ~~Logout "no page just logout on clicking on the nav"~~
+- ~~Post~~
 - edit post
 - comment
 
