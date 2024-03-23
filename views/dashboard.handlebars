@@ -1,0 +1,22 @@
+<main class="container">
+  <div class="container">
+    <h1></h1>Dashboard</h1>
+    <a href="/post" class="btn btn-primary">Create a Post</a>
+  </div>
+  <br />
+  <h1></h1>Your Posts:</h1>
+  {{#each posts}}
+    <div class="post-container post mb-3">
+      <h2><a
+          href="/post/{{id}}"
+          class="text-decoration-none text-reset"
+        >{{title}}</a></h2>
+      <p>Created by: {{user.username}}</p>
+      <a href="/updatepost/{{id}}" class="btn btn-secondary">Edit Post</a>
+      <button
+        class="btn btn-danger delete-post"
+        data-post-id="{{id}}"
+      >Delete</button>
+    </div>
+  {{/each}}
+</main>

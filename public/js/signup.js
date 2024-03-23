@@ -13,7 +13,7 @@ const signup = async (e) => {
     });
 
     if (response.ok) {
-      document.location.replace("/");
+      document.location.replace("/dashboard");
       console.log("Signup Successful");
     } else {
       alert("Failed to sign up");
