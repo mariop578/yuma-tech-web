@@ -5,6 +5,8 @@ const connection = require("./config/connection");
 const routes = require("./controllers");
 const exphbs = require("express-handlebars");
 const app = express();
+require("dotenv").config();
+
 const PORT = process.env.PORT;
 
 const hbs = exphbs.create();
