@@ -1,28 +1,19 @@
 # yuma-tech-web
 
-## Get api done first
+![License Badge](https://img.shields.io/badge/license-MIT%20License-brightgreen)
 
-- Server.js
-- ~~Config~~
-- ~~DB~~
-- ~~Models~~
-- ~~controllers~~
+## Description
 
-## Add handle bars
+A Tech blog for Yuma citizens to share thoughts and ideas through posts.
 
-- ~~Home~~
-- ~~Dashboard~~
-- ~~signup~~
-- ~~Login~~
-- ~~Logout "no page just logout on clicking on the nav"~~
-- ~~Post~~
-- ~~edit post~~
-- ~~comment~~
+## Usage
 
-## Functionality
+[Website](https://yuma-tech-web-afb2a2ad94a9.herokuapp.com/)
 
-- ~~Create event handlers for all pages~~
+- Signup with your credentials.
+- Create a Post in the Dashboard page.
+- Leave a comment on a post.
 
-## Bonus
+## Questions
 
-- Make borders for div to have a card look
+If you have any questions, feel free to reach out to me at partidam578@gmail.com. You can also visit my [GitHub profile](https://github.com/mariop578).
